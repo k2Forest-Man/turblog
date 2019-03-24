@@ -1,7 +1,13 @@
+
 *{
 	text-decoration: none;
 	margin: 0;
     padding: 0;
+}
+
+.logo{
+	position: relative;
+	left:60px;
 }
 
 .h1 {
@@ -48,26 +54,36 @@
 .banner{
 	position: relative;
 	top: -100px;
-	margin-left: 15px;
-	border: 12px;
-	border-color: black;
+}
+
+.banner img{
+	width: 100%;
 }
 
 .article-1{
 	width: 700px;
+	position: relative;
+	top: -40px;
+	left:280px;
 }
 
+.article-1 img{
+	width: 680px;
+}
 
+.article-1 h3{
+	font-family: florence,cursive;
+    position: relative;
+	top: -10px;
+	left:30px;
+}
 
+h3 a{
+	color: black;
+}
 
-
-
-
-
-
-/*html {*/
-	background-image:url('./img/background.jpg');
-	background-position: center center;
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-/*}*/
+.read-next{
+	color:black;
+	font-family: florence,cursive;
+	font-size: 20px;
+}
