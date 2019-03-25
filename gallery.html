@@ -2,47 +2,55 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <title>Мой хороший блог</title>
+  <title>Мой блог</title>
+  <link rel="stylesheet" type="text/css" href="./css/gallery-style.css" />
 </head>
 <body>
   <header class="header">
-    <img src="./img/logo.jpg" alt="logo">
-    <h1>Форум туристов и всех, кто им сочуствует :)</h1>
+    <img src="./img/logo.jpg" alt="logo" class="logo">
+    <h1 class="h1">Форум туристов и всех - кто им сочуствует :)</h1>
 
-    <form>
-      <input type="search">
-      <input type="submit" value="Поиск..">
-    </form>
-
-    <nav>
-      <ul>
-        <li><a href="./index.html">Главная</a></li>
-        <li><a href="./gallery.html" target="_blank">Галерея</a></li>
-        <li><a href="./equipment-reviews.html" class="href" target="_blank">Обзоры</a></li>
-      </ul>
-    </nav>
+    <ul class="menu">
+      <li><a href="./index.html" class="color">Главная</a></li>
+      <li><a href="./gallery.html" class="color">Галерея</a></li>
+      <li><a href="./equipment-reviews.html" class="color">Обзоры</a></li>
+    </ul>
   </header>
 
-  <div class="banner">
-    <img src="./img/banner.jpg" alt="banner">
+  <div class="content">
+    <div class="banner">
+      <img src="./img/banner.jpg" alt="banner">
+    </div>
+
+    <div class="gallery">
+      <div>
+        <img src="./img/photos/forest1.jpg" alt="лес">
+      </div>
+      <div>
+        <img src="./img/photos/forest2.jpg" alt="лес">
+      </div>
+      <div>
+        <img src="./img/photos/forest3.jpg" alt="лес">
+      </div>
+      <div>
+        <img src="./img/photos/forest4.jpg" alt="лес">
+      </div>
+    </div>
   </div>
 
-  <div class="gallery">
-    <div>
-      <img src="./img/photos/forest1.jpg" alt="лес">
-    </div>
-    <div>
-      <img src="./img/photos/forest2.jpg" alt="лес">
-    </div>
-    <div>
-      <img src="./img/photos/forest3.jpg" alt="лес">
-    </div>
-    <div>
-      <img src="./img/photos/forest4.jpg" alt="лес">
-    </div>
-  </div>
+  <footer class="footer">
+      <div class="container">
+        <div class="emeil">ostapenko.artem@gmail.com</div>
 
-  <h1>тут будут фотографии</h1>
+        <div class="tel">+795222245523</div>
+
+        <div class="p">Будем рады Вашим пожеланиям!</div>
+
+        <div class="img">
+          <a href="https://vk.com/id375150338" target="_blank"><img src="./img/vk.png"></a>
+        </div>
+      </div>
+  </footer>
 
 </body>
 </html>

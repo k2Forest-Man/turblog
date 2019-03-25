@@ -1,0 +1,117 @@
+
+*{
+	text-decoration: none;
+	margin: 0;
+    padding: 0;
+}
+
+body{
+background-image: url(../img/background.jpg);
+background-size: cover;
+background-attachment: fixed;
+}
+
+.logo{
+	position: relative;
+	left:70px;
+	top: 10px;
+	border: 2px solid #708090;
+    border-radius: 35px;
+    padding: 3px;
+}
+
+.h1 {
+	font-family:florence,cursive;
+	color:#708090;
+	position: relative;
+	top: -150px;
+	left:300px;
+	width: 70%;
+}
+
+.menu li{
+	list-style: none;
+	float: left;
+	margin-right: 45px;
+	font-family:florence,cursive;
+	color:black;
+	position: relative;
+	top: -110px;
+	left:350px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: florence,cursive;
+    color: black;
+    display: inline-block;
+    padding: 3px 50px;
+    background-color: white;
+    border: 3px solid #708090;
+    border-radius: 15px;
+
+}
+
+.menu .color {
+	color: black;
+	font-size: 20px;
+	cursor:pointer;
+}
+
+.menu .color:hover{
+	background-color:#4ebbbc;
+}
+
+.banner{
+	position: relative;
+	top: -50px;
+}
+
+.banner img{
+	width: 100%;
+	height: 200px;
+}
+
+/*ТУТ ФОТОГАЛЕРЕЯ*/
+
+
+/*ТУТ КОНЧАЕТСЯ ФОТОГАЛЕРЕЯ*/
+
+.footer{
+	background-image: url(../img/background-footer.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.footer{
+
+	height: 140px;
+	position: relative;
+	bottom: -300px;
+}
+
+.container{
+	font-family: florence,cursive;
+	color: white;
+	position: relative;
+	top:5px;
+	left:500px;
+  	width:400px;
+}
+
+.container .tel{
+	position: relative;
+	left:40px;
+}
+
+.container .p{
+	position: relative;
+	left: -20px;
+}
+
+.container .img{
+	position: relative;
+	left: 70px;
+}
+
+/*ТУТ КОНЧАЕТСЯ ФУТЕР*/

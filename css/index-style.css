@@ -6,7 +6,7 @@
 }
 
 body{
-background-image: url(./img/background.jpg);
+background-image: url(../img/background.jpg);
 background-size: cover;
 background-attachment: fixed;
 }
@@ -15,29 +15,29 @@ background-attachment: fixed;
 	position: relative;
 	left:70px;
 	top: 10px;
-	border: 2px solid #4ebbbc;
+	border: 2px solid #708090;
     border-radius: 35px;
     padding: 3px;
 }
 
 .h1 {
 	font-family:florence,cursive;
-	color:#4ebbbc;
+	color:#708090;
 	position: relative;
 	top: -150px;
-	left:320px;
+	left:300px;
 	width: 70%;
 }
 
 .menu li{
 	list-style: none;
 	float: left;
-	margin-right: 35px;
+	margin-right: 45px;
 	font-family:florence,cursive;
 	color:black;
 	position: relative;
-	top: -120px;
-	left:300px;
+	top: -110px;
+	left:350px;
 }
 
 .menu a {
@@ -45,26 +45,26 @@ background-attachment: fixed;
     font-family: florence,cursive;
     color: black;
     display: inline-block;
-    padding: 4px 70px;
-    background-color: lavender;
-    border: 3px solid #4ebbbc;
+    padding: 3px 50px;
+    background-color: white;
+    border: 3px solid #708090;
     border-radius: 15px;
 
 }
 
 .menu .color {
 	color: black;
-	font-size: 23px;
+	font-size: 20px;
 	cursor:pointer;
 }
 
 .menu .color:hover{
-	background-color:red;
+	background-color:#4ebbbc;
 }
 
 .banner{
 	position: relative;
-	top: -70px;
+	top: -50px;
 }
 
 .banner img{
@@ -77,13 +77,13 @@ background-attachment: fixed;
 .article-1{
 	width: 700px;
 	position: relative;
-	top: 0px;
+	top: 20px;
 	left:280px;
 }
 
 .article-1 img{
 	width: 680px;
-	border: 3px solid #4ebbbc;
+	border: 3px solid #708090;
     border-radius: 15px;
 }
 
@@ -114,13 +114,13 @@ background-attachment: fixed;
 .article-2{
 	width: 700px;
 	position: relative;
-	top: 80px;
+	top: 100px;
 	left:280px;
 }
 
 .article-2 img{
 	width: 680px;
-	border: 3px solid #4ebbbc;
+	border: 3px solid #708090;
     border-radius: 15px;
 }
 
@@ -151,13 +151,13 @@ background-attachment: fixed;
 .article-3{
 	width: 700px;
 	position: relative;
-	top: 160px;
+	top: 180px;
 	left:280px;
 }
 
 .article-3 img{
 	width: 680px;
-	border: 3px solid #4ebbbc;
+	border: 3px solid #708090;
     border-radius: 15px;
 }
 
@@ -181,5 +181,46 @@ background-attachment: fixed;
 	font-family: florence,cursive;
 	font-size: 20px;
 }
+/*Тут кончается ТРЕТЬЯ статья!!!*/
 
 /*ТУТ КОНЧАЕТСЯ ЛЕНТА СТАТЕЙ*/
+
+.footer{
+	background-image: url(../img/background-footer.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.footer{
+
+	height: 150px;
+	position: relative;
+	bottom: -300px;
+}
+
+.container{
+	font-family: florence,cursive;
+	color: white;
+	position: relative;
+	top:5px;
+	left:500px;
+  	width:400px;
+  	height: 130px;
+}
+
+.container .tel{
+	position: relative;
+	left:40px;
+}
+
+.container .p{
+	position: relative;
+	left: -20px;
+}
+
+.container .img{
+	position: relative;
+	left: 70px;
+}
+
+/*ТУТ КОНЧАЕТСЯ ФУТЕР*/
