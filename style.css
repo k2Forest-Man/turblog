@@ -6,7 +6,9 @@
 }
 
 body{
-	background-color:#211e1f;
+background-image: url(./img/background.jpg);
+background-size: cover;
+background-attachment: fixed;
 }
 
 .logo{
