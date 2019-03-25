@@ -5,14 +5,22 @@
     padding: 0;
 }
 
+body{
+	background-color:#211e1f;
+}
+
 .logo{
 	position: relative;
-	left:60px;
+	left:70px;
+	top: 10px;
+	border: 2px solid #4ebbbc;
+    border-radius: 35px;
+    padding: 3px;
 }
 
 .h1 {
 	font-family:florence,cursive;
-	color:black;
+	color:#4ebbbc;
 	position: relative;
 	top: -150px;
 	left:320px;
@@ -22,27 +30,28 @@
 .menu li{
 	list-style: none;
 	float: left;
-	margin-right: 45px;
+	margin-right: 35px;
 	font-family:florence,cursive;
 	color:black;
 	position: relative;
 	top: -120px;
-	left:260px;
+	left:300px;
 }
 
 .menu a {
     text-decoration: none;
     font-family: florence,cursive;
-    color: #5757a0;
+    color: black;
     display: inline-block;
-    padding: 4px 80px;
+    padding: 4px 70px;
     background-color: lavender;
-    border: 5px solid #5757a0;
+    border: 3px solid #4ebbbc;
+    border-radius: 15px;
 
 }
 
 .menu .color {
-	color: #5757a0;
+	color: black;
 	font-size: 23px;
 	cursor:pointer;
 }
@@ -53,7 +62,7 @@
 
 .banner{
 	position: relative;
-	top: -100px;
+	top: -70px;
 }
 
 .banner img{
@@ -61,15 +70,19 @@
 	height: 200px;
 }
 
+/*ТУТ НАЧИНАЕТСЯ ЛЕНТА СТАТЕЙ*/
+
 .article-1{
 	width: 700px;
 	position: relative;
-	top: -40px;
+	top: 0px;
 	left:280px;
 }
 
 .article-1 img{
 	width: 680px;
+	border: 3px solid #4ebbbc;
+    border-radius: 15px;
 }
 
 .article-1 h3{
@@ -79,12 +92,92 @@
 	left:30px;
 }
 
-h3 a{
-	color: black;
+.article-1 p{
+	color: white;
 }
 
-.read-next{
-	color:black;
+.article-1 h3 a{
+	color: #4ebbbc;
+}
+
+
+.article-1 .read-next{
+	color:#4ebbbc;
 	font-family: florence,cursive;
 	font-size: 20px;
 }
+
+/*Тут кончается первая статья!!!*/
+
+.article-2{
+	width: 700px;
+	position: relative;
+	top: 80px;
+	left:280px;
+}
+
+.article-2 img{
+	width: 680px;
+	border: 3px solid #4ebbbc;
+    border-radius: 15px;
+}
+
+.article-2 h3{
+	font-family: florence,cursive;
+    position: relative;
+	top: -10px;
+	left:30px;
+}
+
+.article-2 p{
+	color: white;
+}
+
+.article-2 h3 a{
+	color: #4ebbbc;
+}
+
+
+.article-2 .read-next{
+	color:#4ebbbc;
+	font-family: florence,cursive;
+	font-size: 20px;
+}
+
+/*Тут кончается вторая статья!!!*/
+
+.article-3{
+	width: 700px;
+	position: relative;
+	top: 160px;
+	left:280px;
+}
+
+.article-3 img{
+	width: 680px;
+	border: 3px solid #4ebbbc;
+    border-radius: 15px;
+}
+
+.article-3 h3{
+	font-family: florence,cursive;
+    position: relative;
+	top: -10px;
+	left:30px;
+}
+
+.article-3 p{
+	color: white;
+}
+
+.article-3 h3 a{
+	color: #4ebbbc;
+}
+
+.article-3 .read-next{
+	color:#4ebbbc;
+	font-family: florence,cursive;
+	font-size: 20px;
+}
+
+/*ТУТ КОНЧАЕТСЯ ЛЕНТА СТАТЕЙ*/
