@@ -10,30 +10,42 @@ body {
   background-attachment: fixed;
 }
 
+.col-left {
+  float: left;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.col-right {
+  float: left;
+  margin-top: 40px;
+
+}
+
+.col-right .h1 {
+  padding-left: 80px;
+  padding-bottom: 40px;
+}
+
+.col-right .menu {
+  padding-left: 120px;
+}
+
 .logo {
-  top: 10px;
-  left: 70px;
   border: 2px solid #708090;
   padding: 3px;
-  position: relative;
   border-radius: 35px;
 }
 
 .h1 {
-  left: 300px;
   color: #708090;
-  width: 70%;
-  bottom: 150px;
-  position: relative;
+  width: 100%;
   font-family: florence, cursive;
 }
 
 .menu li {
-  left: 350px;
   float: left;
   color: black;
-  bottom: 110px;
-  position: relative;
   list-style: none;
   font-family: florence, cursive;
   margin-right: 45px;
@@ -61,8 +73,8 @@ body {
 }
 
 .banner {
-  bottom: 50px;
-  position: relative;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .banner img {
