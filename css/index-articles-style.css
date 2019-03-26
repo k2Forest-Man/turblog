@@ -1,0 +1,36 @@
+.article {
+  top: 20px;
+  left: 280px;
+  width: 700px;
+  padding: 40px;
+  position: relative;
+}
+
+.article img {
+  width: 680px;
+  border: 3px solid #708090;
+  border-radius: 15px;
+}
+
+.article h3 {
+  bottom: 10px;
+  left: 30px;
+  position: relative;
+  font-family: florence, cursive;
+}
+
+.article p {
+  color: white;
+}
+
+.article h3 a {
+  color: #4ebbbc;
+}
+
+
+.article .read-next {
+  color: #4ebbbc;
+  font-size: 20px;
+  font-family: florence, cursive;
+}
+

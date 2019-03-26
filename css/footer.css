@@ -1,0 +1,37 @@
+.footer {
+  background-size: cover url(../img/background-footer.jpg) fixed;
+  background-image: url(../img/background-footer.jpg);
+  background-attachment: fixed;
+}
+
+.footer {
+
+  top: 230px;
+  height: 150px;
+  position: relative;
+}
+
+.container {
+  top: 5px;
+  left: 500px;
+  color: white;
+  width: 400px;
+  height: 130px;
+  position: relative;
+  font-family: florence, cursive;
+}
+
+.container .tel {
+  left: 40px;
+  position: relative;
+}
+
+.container .p {
+  right: 20px;
+  position: relative;
+}
+
+.container .img {
+  left: 70px;
+  position: relative;
+}
