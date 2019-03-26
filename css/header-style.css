@@ -5,33 +5,41 @@
 }
 
 body {
+  background: fixed url(../img/background.jpg);
   background-size: cover;
-  background-image: url(../img/background.jpg);
-  background-attachment: fixed;
+}
+
+.header {
+  text-align: center;
+}
+
+.header-container {
+  width: 1030px;
+  /*height: 155px;*/
+  display:inline-block;
 }
 
 .col-left {
+  width: 170px;
   float: left;
-  margin-top: 20px;
-  margin-left: 70px;
+  margin: 20px;
+  text-align: right;
 }
 
 .col-right {
+  text-align: center;
+  width: 750px;
   float: left;
-  margin-top: 40px;
-
+  margin: 20px;
 }
 
-.col-right .h1 {
-  padding-left: 80px;
-  padding-bottom: 40px;
-}
-
+.col-right .h1,
 .col-right .menu {
-  padding-left: 120px;
+  margin-top: 20px;
 }
 
 .logo {
+  width: 140px;
   border: 2px solid #708090;
   padding: 3px;
   border-radius: 35px;
@@ -44,14 +52,14 @@ body {
 }
 
 .menu li {
-  float: left;
+  display: inline-block;
   color: black;
   list-style: none;
   font-family: florence, cursive;
-  margin-right: 45px;
+  margin: 0 22px;
 }
 
-.menu a {
+.menu li a {
   color: black;
   display: inline-block;
   padding: 3px 50px;
@@ -59,22 +67,26 @@ body {
   border-radius: 15px;
   text-decoration: none;
   background-color: #b0e0e6;
-
-}
-
-.menu .color {
-  color: black;
   cursor: pointer;
   font-size: 20px;
 }
 
-.menu .color:hover {
+.menu li a:hover {
   background-color: #4ebbbc;
 }
 
+.menu li.active a {
+  background-color: pink;
+}
+
+.menu li.active a:hover {
+  background-color: pink;
+  cursor: default;
+}
+
 .banner {
-  padding-top: 200px;
-  padding-bottom: 30px;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .banner img {

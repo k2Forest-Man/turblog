@@ -2,13 +2,9 @@
   background-size: cover url(../img/background-footer.jpg) fixed;
   background-image: url(../img/background-footer.jpg);
   background-attachment: fixed;
-}
-
-.footer {
-
-  top: 230px;
+  width: 100%;
   height: 150px;
-  position: relative;
+  margin-top: 40px;
 }
 
 .container {
