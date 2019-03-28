@@ -13,3 +13,7 @@
   font-family: florence, cursive;
   text-align: center;
 }
+
+.container img {
+  margin-top: 10px;
+}
