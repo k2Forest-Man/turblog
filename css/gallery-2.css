@@ -1,0 +1,42 @@
+.content {
+  width: 1000px;
+  height: 600px;
+  margin-bottom: 50px auto;
+}
+
+.table {
+  width: 1000px;
+  height: 100%;
+  margin: 30px auto;
+  /*margin: 40px auto;*/
+}
+
+.table .cell {
+  text-align: center;
+}
+
+.cell img {
+  width: 430px;
+  height: 215px;
+  margin: auto;
+  border-radius: 35px;
+}
+
+.cell {
+  width: 500px;
+  height: 250px;
+  float: left;
+}
+
+.table .cell{
+  margin-bottom: 30px;
+}
+
+.cell h2 {
+  width: 500px;
+  color: #4ebbbc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
