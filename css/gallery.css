@@ -2,13 +2,27 @@
   width: 1000px;
 }
 
-.gallery {
-  width: 700px;
-  margin: 80px auto;
+.table {
+  width: 710px;
+  padding: 10px;
+  margin: 40px auto;
 }
 
-.gallery img {
+.table img {
   width: 700px;
-  margin-bottom: 50px;
+  border-radius: 35px;
 }
+
+.cell {
+  width: 700px;
+  margin-bottom: 80px;
+}
+
+.table h2 {
+  width: 700px;
+  color: #4ebbbc;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 
