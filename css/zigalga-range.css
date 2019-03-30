@@ -1,0 +1,14 @@
+.content {
+  width: 1000px;
+}
+
+.gallery {
+  width: 700px;
+  margin: 80px auto;
+}
+
+.gallery img {
+  width: 700px;
+  margin-bottom: 50px;
+}
+
