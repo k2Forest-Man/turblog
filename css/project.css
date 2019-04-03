@@ -1,0 +1,13 @@
+.content {
+  width: 999px;
+  height: 999px;
+  border: 1px solid white;
+  margin-top: 30px;
+}
+
+.text {
+  color: white;
+  font-size: 150px;
+  text-align: center;
+  margin: auto;
+}
