@@ -1,0 +1,16 @@
+.table {
+  width: 1000px;
+  display: flex;
+  padding: 3px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.cell {
+  flex: 1;
+}
+
+.cell img {
+  width: 244px;
+  height: 160px;
+}
