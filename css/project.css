@@ -1,13 +1,33 @@
 .content {
-  width: 999px;
-  height: 999px;
+  width: 1000px;
+  height: 100%;
   border: 1px solid white;
+  padding: 20px;
+  display: flex;
   margin-top: 30px;
+  box-sizing: border-box;
+  justify-content: center;
 }
 
-.text {
-  color: white;
-  font-size: 150px;
-  text-align: center;
-  margin: auto;
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: red;
 }
+
+.rectangle {
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  background-color: blue;
+}
+
+.circle {
+width: 200px;
+height: 200px;
+margin: 10px;
+background: yellow;
+border-radius: 50%;
+}
+
