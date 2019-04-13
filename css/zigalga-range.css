@@ -12,6 +12,10 @@
   margin-bottom: 50px;
 }
 
+.gallery img:hover {
+  transform: scale(1.5);
+}
+
 .menu li a:hover {
   background-color: #324ab2;
   transform: scale(1.3);
