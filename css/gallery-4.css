@@ -12,3 +12,7 @@
   width: 244px;
   height: 160px;
 }
+
+.cell img:hover {
+  transform: scale(2);
+}

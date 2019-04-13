@@ -12,3 +12,7 @@
   margin-bottom: 50px;
 }
 
+.menu li a:hover {
+  background-color: #324ab2;
+  transform: scale(1.3);
+}
