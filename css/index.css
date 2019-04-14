@@ -35,3 +35,8 @@
   font-family: florence, cursive;
 }
 
+.read-next:hover {
+  font-size: 25px;
+  transition-duration: 1s;
+  transition-property: font-size;
+}
