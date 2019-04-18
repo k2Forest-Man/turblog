@@ -2,24 +2,25 @@
   width: 1000px;
   height: 100%;
   border: 1px solid white;
-  padding: 20px;
-  display: flex;
+  display: grid;
   margin-top: 30px;
   box-sizing: border-box;
-  justify-content: center;
+  grid-template-rows: repeat(3,310px);
+  grid-template-columns: repeat(3,333px);
 }
 
 .square {
   width: 200px;
   height: 200px;
   margin: 10px;
+  margin: auto;
   background-color: red;
 }
 
 .rectangle {
-  width: 400px;
+  width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: auto;
   background-color: blue;
 }
 
@@ -27,7 +28,52 @@
   width: 200px;
   height: 200px;
   margin: 10px;
+  margin: auto;
   background: yellow;
   border-radius: 50%;
+}
+
+.parallelogram {
+  width: 225px;
+  height: 150px;
+  margin: auto;
+  transform: skew(20deg);
+  background: #D4D5DA;
+  margin-left: 50px;
+}
+
+
+.test-square {
+  border: 2px solid #EE4D68;
+  position: relative;
+  animation: square 4s infinite;
+}
+
+@keyframes square {
+  0% {
+    top: 120px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    transform:rotate(45deg);
+  }
+
+  50%{
+    top: 120px;
+    left: 140px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(135deg);
+    border-color: #00E4F6;
+  }
+
+  100% {
+    top: 120px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    transform: rotate(225deg);
+    border-color: #FF9900;
+  }
 }
 
