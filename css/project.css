@@ -24,15 +24,6 @@
   background-color: blue;
 }
 
-.circle {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-  margin: auto;
-  background: yellow;
-  border-radius: 50%;
-}
-
 .parallelogram {
   width: 225px;
   height: 150px;
@@ -77,3 +68,29 @@
   }
 }
 
+.circle {
+  position: relative;
+  animation: circle 4s infinite;
+  width: 200px;
+  height: 200px;
+  margin-top: 55px;
+  background: yellow;
+  border-radius: 50%;
+}
+
+@keyframes circle {
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  50%{
+    top: 0;
+    left: 133.5px;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
