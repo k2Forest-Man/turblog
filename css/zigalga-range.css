@@ -12,8 +12,14 @@
   margin-bottom: 50px;
 }
 
+.sepia img {
+  filter: sepia(100%);
+}
+
+
 .gallery img:hover {
   transform: scale(1.5);
+  filter: grayscale(100%);
 }
 
 .menu li a:hover {
