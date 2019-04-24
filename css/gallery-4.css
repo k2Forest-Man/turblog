@@ -13,6 +13,23 @@
   height: 160px;
 }
 
-.cell img:hover {
-  transform: scale(2);
+.name {
+  display: inline-block;
+  position: relative;
+}
+.name:hover::after {
+  left: 0;
+  width: 244px;
+  bottom: 0;
+  height: 30px;
+  filter: opacity(70%);
+  content: attr(data-title);
+  z-index: 1;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  background: #324ab2;
+  padding-top: 6px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 4px;
 }
