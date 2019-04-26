@@ -65,11 +65,11 @@ body {
   display: inline-block;
   padding: 3px 50px;
   font-size: 20px;
+  transition: background-color 4s;
   font-family: florence, cursive;
   border-radius: 15px;
   text-decoration: none;
   background-color: #b0e0e6;
-  transition: background-color 4s;
 }
 
 .menu li a:hover {
