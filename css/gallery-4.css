@@ -17,6 +17,7 @@
   display: inline-block;
   position: relative;
 }
+
 .name:hover::after {
   left: 0;
   width: 244px;
