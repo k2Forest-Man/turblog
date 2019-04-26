@@ -69,8 +69,7 @@ body {
   border-radius: 15px;
   text-decoration: none;
   background-color: #b0e0e6;
-  transition-property: background-color;
-  transition-duration: 5s;
+  transition: background-color 4s;
 }
 
 .menu li a:hover {

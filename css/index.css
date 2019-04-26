@@ -31,12 +31,10 @@
 
 .article .read-next {
   color: #4ebbbc;
-  font-size: 20px;
   font-family: florence, cursive;
 }
 
-.read-next:hover {
+.read-next {
   font-size: 25px;
-  transition-duration: 1s;
-  transition-property: font-size;
+  transition: 2s;
 }
