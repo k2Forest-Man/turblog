@@ -35,6 +35,9 @@
 }
 
 .read-next {
+  transition: font-size 2s;
+}
+
+.read-next:hover {
   font-size: 25px;
-  transition: 2s;
 }
