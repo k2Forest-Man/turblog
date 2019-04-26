@@ -46,10 +46,10 @@
     left: 0;
     width: 5px;
     height: 5px;
-    transform:rotate(45deg);
+    transform: rotate(45deg);
   }
 
-  50%{
+  50% {
     top: 120px;
     left: 140px;
     width: 100px;
@@ -231,7 +231,7 @@
     transform: translate(-200px,-150px);
   }
 
-  50%{
+  50% {
     transform: translate(-200px,150px);
   }
 
