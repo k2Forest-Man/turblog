@@ -17,8 +17,7 @@
 }
 
 
-.gallery img:hover {
-  filter: grayscale(100%);
+.big {
   transform: scale(1.5);
 }
 

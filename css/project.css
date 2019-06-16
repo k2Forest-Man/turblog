@@ -240,3 +240,19 @@
   }
 }
 
+.game{
+  width: 180px;
+  height: 75px;
+  margin: auto;
+  padding: auto;
+  font-size: 50px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.game p{
+  color: black;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
