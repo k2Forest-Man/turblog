@@ -2,32 +2,257 @@
   width: 1000px;
   height: 100%;
   border: 1px solid white;
-  padding: 20px;
-  display: flex;
+  display: grid;
   margin-top: 30px;
   box-sizing: border-box;
-  justify-content: center;
+  grid-template-rows: repeat(3,333px);
+  grid-template-columns: repeat(3,333px);
 }
 
 .square {
   width: 200px;
   height: 200px;
   margin: 10px;
+  margin: auto;
   background-color: red;
 }
 
 .rectangle {
-  width: 400px;
+  width: 300px;
   height: 200px;
-  margin: 10px;
+  margin: auto;
   background-color: blue;
+}
+
+.parallelogram {
+  width: 225px;
+  height: 150px;
+  margin: auto;
+  transform: skew(20deg);
+  background: #D4D5DA;
+  margin-left: 50px;
+}
+
+
+.test-square {
+  border: 2px solid #EE4D68;
+  position: relative;
+  animation: square 4s infinite;
+}
+
+@keyframes square {
+  0% {
+    top: 120px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+  }
+
+  50% {
+    top: 120px;
+    left: 140px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(135deg);
+    border-color: #00E4F6;
+  }
+
+  100% {
+    top: 120px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    transform: rotate(225deg);
+    border-color: #FF9900;
+  }
 }
 
 .circle {
   width: 200px;
   height: 200px;
-  margin: 10px;
+  position: relative;
+  animation: circle 2s infinite;
+  margin-top: 66.5px;
   background: yellow;
   border-radius: 50%;
 }
 
+@keyframes circle {
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  50%{
+    top: 0;
+    left: 133.5px;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+
+.liner-circle {
+  width: 333px;
+  margin: auto;
+}
+
+.liner-circle ul {
+  padding: 0;
+  list-style: none;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+
+.liner-circle li {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  box-shadow: 3px 3px 11px #00E4F6;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.liner-circle li:nth-child(1) {background:red}
+.liner-circle li:nth-child(2) {background:green}
+.liner-circle li:nth-child(3) {background:yellow}
+.liner-circle li:nth-child(4) {background:blue}
+.liner-circle li:nth-child(5) {background:white}
+
+.dance-circle li:nth-child(1) {
+  animation: redball 1s alternate infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes redball {
+  0% {
+    transform: translateY(180px);
+  }
+
+  25% {
+    transform: translateY(-150px);
+  }
+
+  50% {
+    transform: translateY(80px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.dance-circle li:nth-child(2) {
+  animation: greenball .7s alternate infinite;
+  animation-delay: 1s;
+}
+
+@keyframes greenball {
+  0% {
+    transform: translateY(-80px);
+  }
+
+  25% {
+    transform: translateY(150px);
+  }
+
+  50% {
+    transform: translateY(-80px);
+  }
+
+  100% {
+    transform: translateY(50px);
+  }
+}
+
+.dance-circle li:nth-child(3) {
+  animation: yellowball .7s alternate infinite;
+}
+
+@keyframes yellowball {
+  0% {
+    transform: translateX(-150px);
+  }
+
+  25% {
+    transform: translateX(160px);
+    transform: scale(2);
+  }
+
+  50% {
+    transform: translateX(-80px);
+  }
+
+  100% {
+    transform: translateX(50px);
+    transform: scale(3);
+  }
+}
+
+.dance-circle li:nth-child(4) {
+  animation: blueball 2s alternate infinite;
+}
+
+@keyframes blueball {
+  0% {
+    transform: translateX(100px);
+  }
+
+  25% {
+    transform: translateX(-160px);
+    transform: scale(2);
+  }
+
+  50% {
+    transform: translateX(80px);
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: translateX(-50px);
+    transform: scale(4);
+    transform: translateY(-50px);
+  }
+}
+
+.dance-circle li:nth-child(5) {
+  animation: whiteball 5s alternate infinite;
+}
+
+@keyframes whiteball {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translate(-200px,-150px);
+  }
+
+  50% {
+    transform: translate(-200px,150px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.game{
+  width: 180px;
+  height: 75px;
+  margin: auto;
+  padding: auto;
+  font-size: 50px;
+  border-radius: 20px;
+  background-color: red;
+}
+
+.game p{
+  color: black;
+  margin: auto;
+  padding: 5px;
+  text-align: center;
+}
